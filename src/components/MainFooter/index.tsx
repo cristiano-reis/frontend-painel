@@ -6,19 +6,19 @@ const MainFooter: React.FC = () => {
   return(
     <Container>
         <FooterMenu>
-          <NavLink to="/">
-            Config
+          <NavLink to="/product">
+            Produtos
           </NavLink>
           <NavLink to="/">
-            Promoções
+            Slide
           </NavLink>
+        
           </FooterMenu>
          
        
           <FooterHour>
                <h1>São Vicente, 10 de Outubro de 2020 </h1>
-               
-            
+                      
           </FooterHour>
     </Container>
   ) 
