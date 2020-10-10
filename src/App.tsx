@@ -1,12 +1,12 @@
 import React from 'react';
-
+import Routes from './routes';
 import GlobalStyles from './styles/GlobalStyles';
 const App: React.FC = () => {
 
   return (<>
         <GlobalStyles />
-         <h1>Cixa</h1>
-          </>
+        <Routes/>
+      </>
   );
 }
 
